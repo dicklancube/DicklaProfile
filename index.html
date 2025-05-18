@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dickla Ncube | Systems Analyst</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav id="navbar">
+    <div class="nav-container container">
+      <button class="mobile-menu-toggle" aria-label="Toggle menu">
+        <i class="fas fa-bars"></i>
+      </button>
+      
+      <a href="#home" class="logo">DICKLA</a>
+      
+      <ul class="nav-links">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      
+      <div class="nav-actions">
+        <a href="resources/2025_Resume.pdf" class="download-cv" download>
+          <i class="fas fa-download"></i> Download CV
+        </a>
+        <button id="theme-toggle" aria-label="Toggle theme">
+          <i class="fas fa-moon"></i>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="fade-in">
+    <div class="container">
+      <div class="hero-content">
+        <div class="profile-image-container">
+          <img src="resources/profile.JPG" alt="Dickla Ncube" class="profile-image">
+        </div>
+        <h1>Hi, I'm <span class="highlight">Dickla Ncube</span></h1>
+        <p class="tagline">Systems Analyst | Cloud Technology Enthusiast | Creative Problem Solver</p>
+
+        <div class="btn-container">
+          <a href="#projects" class="btn">View My Work</a>
+          <a href="#contact" class="btn btn-outline">Contact Me</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <div class="about-content">
+        <div class="about-text">
+          <p>I specialize in designing and implementing cloud solutions that drive business efficiency. With expertise in AWS, Azure, and DevOps methodologies, I bridge the gap between technical teams and business objectives.</p>
+          <div class="skills">
+            <h3>Core Skills:</h3>
+            <div class="skill-tags">
+              <span>AWS Architecture</span>
+              <span>Terraform</span>
+              <span>CI/CD Pipelines</span>
+              <span>Kubernetes</span>
+              <span>Python Automation</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <div class="container">
+      <h2>Featured Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <div class="project-header">
+            <h3>AWS Cost Optimization</h3>
+            <div class="tech-tags">
+              <span>AWS</span>
+              <span>Terraform</span>
+            </div>
+          </div>
+          <p>Reduced cloud infrastructure costs by 35% through rightsizing and reserved instance planning.</p>
+          <a href="#" class="project-link">View Details <i class="fas fa-arrow-right"></i></a>
+        </div>
+        <!-- More project cards -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="container">
+      <h2>Get In Touch</h2>
+      <div class="contact-content">
+        <div class="contact-info">
+          <p><i class="fas fa-envelope"></i> hello@dickla.dev</p>
+          <p><i class="fas fa-phone"></i> +1 (123) 456-7890</p>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+          </div>
+        </div>
+        <form class="contact-form">
+          <input type="text" placeholder="Your Name" required>
+          <input type="email" placeholder="Your Email" required>
+          <textarea placeholder="Your Message" required></textarea>
+          <button type="submit" class="btn">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
